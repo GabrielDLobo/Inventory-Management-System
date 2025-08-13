@@ -22,23 +22,23 @@ Sistema de Gestão de Estoque desenvolvido com **Django**, **Python** e **Bootst
 ## 🖥️ Como executar o projeto localmente
 
 <strong>1. Clone o repositório:</strong>
-git clone https://github.com/GabrielDLobo/Inventory-Management-System.git
+- git clone https://github.com/GabrielDLobo/Inventory-Management-System.git
 
 <strong>2. Crie e ative o ambiente virtual:</strong>
-python -m venv venv
-venv\Scripts\activate
+- python -m venv venv
+- venv\Scripts\activate
 
 <strong>3. Instale as dependências</strong>
-pip install -r requirements.txt
+- pip install -r requirements.txt
 
 <strong>4. Aplique as migrações e crie o super usuário</strong>
-python manage.py migrate
-python manage.py createsuperuser
+- python manage.py migrate
+- python manage.py createsuperuser
 
 <strong>5. Execute o servidor</strong>
-python manage.py runserver
+- python manage.py runserver
 
-Acesse o sistema em: http://localhost:8000/login
+- Acesse o sistema em: http://localhost:8000/login
 
 
 ## 📚 Aprendizados
