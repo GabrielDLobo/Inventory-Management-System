@@ -41,7 +41,7 @@ python manage.py runserver
 Acesse o sistema em: http://localhost:8000/login
 
 
-📚 Aprendizados
+## 📚 Aprendizados
 Durante o desenvolvimento, aprimorei habilidades em:
 • 	Modelagem de dados com Django ORM
 • 	Criação de interfaces responsivas
