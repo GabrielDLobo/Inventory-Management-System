@@ -1,35 +1,49 @@
-# Sistema de Gestão de Estoque (SGE)
+# 📦 Inventory Management System (SGE)
 
-Bem-vindo ao Sistema de Gestão de Estoque (SGE), um projeto desenvolvido em Django e Bootstrap 5 para facilitar o gerenciamento de estoque. Este README fornece informações essenciais sobre como configurar e executar o projeto em seu ambiente local.
+Sistema de Gestão de Estoque desenvolvido com **Django**, **Python** e **Bootstrap 5**, focado em facilitar o controle de entradas, saídas e organização de produtos em ambientes comerciais.
 
-## Requisitos
+## 🚀 Funcionalidades
 
-Certifique-se de que você tenha os seguintes requisitos instalados em seu sistema:
+- ✅ Autenticação de usuários
+- 📥 Registro de entradas e saídas de produtos
+- 🗂️ Gerenciamento de categorias, marcas e fornecedores
+- 📊 Visualização de histórico de movimentações
+- 🛠️ Interface responsiva com Bootstrap 5
 
-- Python (versão recomendada: 3.7 ou superior)
-- Django (instalado automaticamente ao seguir as instruções abaixo)
-- Outras dependências listadas no arquivo `requirements.txt`
+## 🧰 Tecnologias utilizadas
 
+- Python 3.7+
+- Django
+- Bootstrap 5
+- Docker
+- PostgreSQL
+- Amazon Web Services
 
-## Instalação das Dependências
+## 🖥️ Como executar o projeto localmente
 
-Com o ambiente virtual ativado, instale as dependências do projeto usando o comando:
-```bash
+<strong>1. Clone o repositório:</strong>
+git clone https://github.com/GabrielDLobo/Inventory-Management-System.git
+
+<strong>2. Crie e ative o ambiente virtual:</strong>
+python -m venv venv
+venv\Scripts\activate
+
+<strong>3. Instale as dependências</strong>
 pip install -r requirements.txt
-```
 
-
-## Rodar o projeto
-
-Após instalar as dependências, aplique as migrations no banco de dados com o comando:
-```bash
+<strong>4. Aplique as migrações e crie o super usuário</strong>
 python manage.py migrate
-```
+python manage.py createsuperuser
 
-Agora o projeto jã pode ser inicializado com o comando:
-```bash
+<strong>5. Execute o servidor</strong>
 python manage.py runserver
-```
 
-Após isso, o sistema estará pronto para ser acessado em:
-[http://localhost:8000](http://localhost:8000)
+Acesse o sistema em: http://localhost:8000/login
+
+
+📚 Aprendizados
+Durante o desenvolvimento, aprimorei habilidades em:
+• 	Modelagem de dados com Django ORM
+• 	Criação de interfaces responsivas
+• 	Organização de código em apps modulares
+• 	Uso de Docker para ambientes isolados
