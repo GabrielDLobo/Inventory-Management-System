@@ -43,7 +43,7 @@ Acesse o sistema em: http://localhost:8000/login
 
 ## 📚 Aprendizados
 Durante o desenvolvimento, aprimorei habilidades em:
-• 	Modelagem de dados com Django ORM
-• 	Criação de interfaces responsivas
-• 	Organização de código em apps modulares
-• 	Uso de Docker para ambientes isolados
+- Modelagem de dados com Django ORM
+- Criação de interfaces responsivas
+- Organização de código em apps modulares
+- Uso de Docker para ambientes isolados
