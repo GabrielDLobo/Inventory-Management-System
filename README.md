@@ -1,4 +1,4 @@
-# 📦 Inventory Management System (SGE)
+# 📦 Inventory Management System 
 
 Sistema de Gestão de Estoque desenvolvido com **Django**, **Python** e **Bootstrap 5**, focado em facilitar o controle de entradas, saídas e organização de produtos em ambientes comerciais.
 
