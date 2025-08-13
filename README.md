@@ -14,6 +14,7 @@ Sistema de Gestão de Estoque desenvolvido com **Django**, **Python** e **Bootst
 
 - Python 3.7+
 - Django
+- Django REST Framework
 - Bootstrap 5
 - Docker
 - PostgreSQL
